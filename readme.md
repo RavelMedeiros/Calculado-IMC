@@ -1,5 +1,8 @@
 # Calculadora IMC
 
+![image](https://user-images.githubusercontent.com/112495220/223199071-711da236-aa3f-471b-a966-58bd8d5b75a3.png)
+
+
 Este é um pequeno projeto em JavaScript que calcula o índice de massa corporal (IMC) de uma pessoa com base nos dados de altura e peso fornecidos pelo usuário em um formulário HTML. O código é executado no navegador da web e exibe o resultado do cálculo na página HTML, usando uma mensagem personalizada para indicar se o usuário está abaixo do peso, com peso ideal ou acima do peso. O projeto pode ser útil para pessoas que desejam monitorar sua saúde e ter uma ideia geral de seu IMC.
 
 ### 🔧 Instalação
