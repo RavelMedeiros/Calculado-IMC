@@ -1,0 +1,444 @@
+@media only screen and (max-device-width: 2560px) {
+    body {
+        background: #09090A;
+    }
+
+    #logo {
+        position: absolute;
+        width: 10%;
+        left: 51%;
+        top: 0.2%;
+        transform: translate(-50%, 0);
+    }
+
+    h1 {
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: 51%;
+        top: 13%;
+        transform: translate(-50%, 0%);
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        color: #FFFFFF;
+    }
+
+    #dados-nome {
+
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 22.33%;
+        bottom: 70.56%;
+        background: #18181B;
+        border: 2px solid #27272A;
+        border-radius: 8px;
+    }
+
+    #dados-peso {
+        box-sizing: border-box;
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 43.78%;
+        bottom: 49.11%;
+        background: #18181B;
+        border: 2px solid #27272A;
+        border-radius: 8px;
+    }
+
+    #dados-altura {
+
+        box-sizing: border-box;
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 33.11%;
+        bottom: 59.78%;
+        background: #18181B;
+        border: 2px solid #27272A;
+        border-radius: 8px;
+    }
+
+    input::placeholder, {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 125%;
+        color: #8b8b8b;
+    }
+
+    input[type=text] {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 125%;
+        color: white;
+        text-align: center;
+    }
+
+    #botao-calcular {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 12px;
+        position: absolute;
+        transform: translate(-50%, 0);
+        width: 152px;
+        height: 65px;
+        left: 51%;
+        top: 55%;
+        border: 1px solid #8B5CF6;
+        border-radius: 8px;
+        color: white;
+        background-color: transparent;
+        font-size: 35px;
+    }
+
+    #botao-calcular:hover {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 12px;
+        position: absolute;
+        transform: translate(-50%, 0);
+        width: 152px;
+        height: 65px;
+        left: 51%;
+        top: 55%;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        color: #white;
+        background-color: #8B5CF6;
+        font-size: 35px;
+    }
+
+    #resultado {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 22px 19px;
+        gap: 10px;
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 70.22%;
+        bottom: 7.67%;
+        background: #8B5CF6;
+        border: 2px solid #A78BFA;
+        border-radius: 8px;
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    body {
+        background: #09090A;
+    }
+
+    #logo {
+        position: absolute;
+        width: 17%;
+        left: 51%;
+        top: 1%;
+        transform: translate(-50%, 0);
+    }
+
+    h1 {
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: 51%;
+        top: 13%;
+        transform: translate(-50%, 0%);
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        color: #FFFFFF;
+    }
+
+    #dados-nome {
+
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 22.33%;
+        bottom: 70.56%;
+        background: #18181B;
+        border: 2px solid #27272A;
+        border-radius: 8px;
+    }
+
+    #dados-peso {
+        box-sizing: border-box;
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 43.78%;
+        bottom: 49.11%;
+        background: #18181B;
+        border: 2px solid #27272A;
+        border-radius: 8px;
+    }
+
+    #dados-altura {
+
+        box-sizing: border-box;
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 33.11%;
+        bottom: 59.78%;
+        background: #18181B;
+        border: 2px solid #27272A;
+        border-radius: 8px;
+    }
+
+    input::placeholder, {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 125%;
+        color: #8b8b8b;
+    }
+
+    input[type=text] {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 125%;
+        color: white;
+        text-align: center;
+    }
+
+    #botao-calcular {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 12px;
+        position: absolute;
+        transform: translate(-50%, 0);
+        width: 152px;
+        height: 65px;
+        left: 51%;
+        top: 55%;
+        border: 1px solid #8B5CF6;
+        border-radius: 8px;
+        color: white;
+        background-color: transparent;
+        font-size: 35px;
+    }
+
+    #botao-calcular:hover {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 12px;
+        position: absolute;
+        transform: translate(-50%, 0);
+        width: 152px;
+        height: 65px;
+        left: 51%;
+        top: 55%;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        color: #white;
+        background-color: #8B5CF6;
+        font-size: 35px;
+    }
+
+    #resultado {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 22px 19px;
+        gap: 10px;
+        position: absolute;
+        left: 32%;
+        right: 30%;
+        top: 70.22%;
+        bottom: 7.67%;
+        background: #8B5CF6;
+        border: 2px solid #A78BFA;
+        border-radius: 8px;
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    body {
+        background: #09090A;
+    }
+
+    #logo {
+        position: absolute;
+        width: 20%;
+        left: 51%;
+        top: 1%;
+        transform: translate(-50%, 0);
+    }
+
+    h1 {
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: 51%;
+        top: 13%;
+        transform: translate(-50%, 0%);
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 41px;
+        color: #FFFFFF;
+    }
+
+    #dados-nome {
+
+        box-sizing: border-box;
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 22.33%;
+        bottom: 70.56%;
+        background: #18181B;
+        border: 2px solid #27272A;
+        border-radius: 8px;
+    }
+
+    #dados-peso {
+        box-sizing: border-box;
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 43.78%;
+        bottom: 49.11%;
+        background: #18181B;
+        border: 2px solid #27272A;
+        border-radius: 8px;
+    }
+
+    #dados-altura {
+
+        box-sizing: border-box;
+        position: absolute;
+        left: 37.78%;
+        right: 35.56%;
+        top: 33.11%;
+        bottom: 59.78%;
+        background: #18181B;
+        border: 2px solid #27272A;
+        border-radius: 8px;
+    }
+
+    input::placeholder, {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 125%;
+        color: #8b8b8b;
+    }
+
+    input[type=text] {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 125%;
+        color: white;
+        text-align: center;
+    }
+
+    #botao-calcular {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 12px;
+        position: absolute;
+        transform: translate(-50%, 0);
+        width: 152px;
+        height: 65px;
+        left: 51%;
+        top: 55%;
+        border: 1px solid #8B5CF6;
+        border-radius: 8px;
+        color: white;
+        background-color: transparent;
+        font-size: 35px;
+    }
+
+    #botao-calcular:hover {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 12px;
+        position: absolute;
+        transform: translate(-50%, 0);
+        width: 152px;
+        height: 65px;
+        left: 51%;
+        top: 55%;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        color: #white;
+        background-color: #8B5CF6;
+        font-size: 35px;
+    }
+
+    #resultado {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 22px 19px;
+        gap: 10px;
+        position: absolute;
+        left: 32%;
+        right: 30%;
+        top: 70.22%;
+        bottom: 7.67%;
+        background: #8B5CF6;
+        border: 2px solid #A78BFA;
+        border-radius: 8px;
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+    }
+}
